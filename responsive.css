@@ -1,0 +1,117 @@
+/* Media Queries for responsive design */
+@media (max-width: 1200px) {
+    .app {
+        width: 100%;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .rf {
+        width: 15%;
+    }
+
+    .score {
+        font-size: 2rem;
+    }
+
+    #question {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    #next-btn, #replay-btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .app {
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .rf {
+        width: 15%;
+    }
+
+    .score {
+        font-size: 2rem;
+    }
+
+    #question {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+
+    #answer-buttons {
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+    }
+
+    #next-btn, #replay-btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .app {
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .rf {
+        width: 20%;
+    }
+
+    .score {
+        font-size: 1.5rem;
+    }
+
+    #question {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    #answer-buttons {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    #next-btn, #replay-btn {
+        font-size: 0.8rem;
+    }
+}
+
+/* Media Queries for responsive background */
+@media (max-width: 1200px) {
+    body {
+        background-size: 100% 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
